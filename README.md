@@ -54,9 +54,11 @@ git push //推送至远程仓库
 例如：
 
 ```text
-https://cdn.jsdelivr.net/gh/TRHX/CDN-for-itrhx.com@1.0/images/trhx.png
-https://cdn.jsdelivr.net/gh/TRHX/CDN-for-itrhx.com@2.0.1/css/style.css  
-https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.3//The%20Pet%20Girl%20of%20Sakurasou.mp4
+https://cdn.jsdelivr.net/gh/zryyyy/CDN@latest/js/fireworks.js
+https://cdn.jsdelivr.net/gh/zryyyy/CDN@1.0/js/fireworks.js
+https://cdn.jsdelivr.net/gh/zryyyy/CDN@1.0/js/fireworks.min.js
+https://cdn.jsdelivr.net/gh/zryyyy/CDN/css/switch/style.css
+https://cdn.jsdelivr.net/gh/zryyyy/CDN/img/basic/LOGO1.png
 ```
 
 注意：版本号不是必需的，是为了区分新旧资源，如果不使用版本号，将会直接引用最新资源，除此之外还可以使用某个范围内的版本，查看所有资源等，具体使用方法如下：
