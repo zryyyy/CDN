@@ -1,4 +1,4 @@
-# CDN
+### CDN
 jsDelivr CDN
 
 官方使用方法：
@@ -28,7 +28,7 @@ https://cdn.jsdelivr.net/gh/jquery/jquery/
 实例：
 https://cdn.jsdelivr.net/gh/zryyyy/CDN@1.0/nest.js
 
-# 提交
+### 提交
 git status                    //查看状态
 git add .                     //添加所有文件到暂存区
 git commit -m '第一次提交'      //把文件提交到仓库
