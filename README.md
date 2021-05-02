@@ -58,6 +58,7 @@ https://cdn.jsdelivr.net/gh/zryyyy/CDN@latest/js/fireworks.js
 https://cdn.jsdelivr.net/gh/zryyyy/CDN@1.0/js/fireworks.js
 https://cdn.jsdelivr.net/gh/zryyyy/CDN@1.0/js/fireworks.min.js
 https://cdn.jsdelivr.net/gh/zryyyy/CDN/css/switch/style.css
+https://cdn.jsdelivr.net/gh/zryyyy/CDN/css/switch/style.min.css
 https://cdn.jsdelivr.net/gh/zryyyy/CDN/img/basic/LOGO1.png
 ```
 
