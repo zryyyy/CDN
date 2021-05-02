@@ -1,38 +1,49 @@
-### CDN
-jsDelivr CDN
+## jsDelivr
 
-官方使用方法：
-加载任何 GitHub 版本、提交或分支
-注意： 我们建议对支持它的项目使用 npm
-https://cdn.jsdelivr.net/gh/用户/repo@version/文件
+### 使用说明
 
-负载 jQuery v3.2.1
+```
+// load any GitHub release, commit, or branch
+// note: we recommend using npm for projects that support it
+// 加载任何GitHub版本、提交或分支
+// 注意：我们建议在支持npm的项目中使用它
+https://cdn.jsdelivr.net/gh/user/repo@version/file
+
+// load jQuery v3.2.1
+// 加载jQuery v3.2.1
 https://cdn.jsdelivr.net/gh/jquery/jquery@3.2.1/dist/jquery.min.js
 
-使用版本范围而不是特定版本
+// use a version range instead of a specific version
+// 使用一个版本范围而不是一个特定的版本
 https://cdn.jsdelivr.net/gh/jquery/jquery@3.2/dist/jquery.min.js
 https://cdn.jsdelivr.net/gh/jquery/jquery@3/dist/jquery.min.js
 
-完全省略版本， 以获得最新的版本
-你不应该在生产中使用这个
+// omit the version completely to get the latest one
+// you should NOT use this in production
+// 完全省略版本，以获得最新的版本
+// 你不应该在生产中使用这个
 https://cdn.jsdelivr.net/gh/jquery/jquery/dist/jquery.min.js
 
-将".min"添加到任何 JS/CSS 文件以获得最小版本
-如果一个不存在， 我们将为你生成它
+// add ".min" to any JS/CSS file to get a minified version
+// if one doesn't exist, we'll generate it for you
+// 在任何JS/CSS文件中添加".min "以获得一个最小化的版本
+// 如果没有这个版本，我们将为你生成它
 https://cdn.jsdelivr.net/gh/jquery/jquery@3.2.1/src/core.min.js
 
-添加 / 在末尾获取目录列表
+// add / at the end to get a directory listing
+// 在结尾处添加"/"以获得一个目录列表
 https://cdn.jsdelivr.net/gh/jquery/jquery/
-
-
-实例：
-https://cdn.jsdelivr.net/gh/zryyyy/CDN@1.0/nest.js
+```
 
 ### 提交
-git status                    //查看状态
 
-git add .                     //添加所有文件到暂存区
+```bash
+git status //查看状态
 
-git commit -m '第一次提交'      //把文件提交到仓库
+git add . //添加所有文件到暂存区
 
-git push                      //推送至远程仓库
+git commit -m '第一次提交' //把文件提交到仓库
+
+git push //推送至远程仓库
+```
+
